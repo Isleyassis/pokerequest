@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>pokedex</title>
+</head>
+<body>
+    <section class="main-content">
+        <header>
+            <h1 class="main-content__title">
+                POKEAPI
+            </h1>
+        </header>
+
+        <form class="main-content__form" id="form">
+            <label>
+                Escolha um pokemon:
+            </label>
+            <input type="text" id="input-req">
+            <button id="button">
+                Search
+            </button>
+        </form>
+
+        <div class="card-result" id="card-result">
+            <div id="close-card" class="close"> X </div>
+            <div class="wrapper-img">
+                <img id="image">
+            </div>
+            <div class="card-body">
+                <h3 id="name"></h3>
+                <h4 id="infos"></h4>
+                <small id="basexp"></small>
+                <p id="type"></p>
+            </div> 
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
